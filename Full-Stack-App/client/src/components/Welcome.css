@@ -1,0 +1,29 @@
+/* Welcome.css */
+
+.cart-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+  
+  .total-price {
+    margin-top: 10px;
+  }
+  
+  .checkout-button {
+    margin-top: 10px;
+  }
+  
+  .cart-container {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto;
+  }
+  
